@@ -37,7 +37,7 @@ let monto = "";
 
 while(monto != "SALIR") {
     
-    monto = prompt("Ingrese el monto que quiere convertir o SALIR");
+    monto = prompt("Ingrese el monto que quiere convertir a otra moneda oficial o SALIR para no continuar");
     
     if( monto != "SALIR"){
 
