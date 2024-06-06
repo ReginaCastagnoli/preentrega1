@@ -5,19 +5,18 @@ function calcularCambio(monto, moneda){
 
     let cambio = 0;
 
-    if(moneda == "DOLAR" ||"dolar"){
-        let cambio = monto * 896;
-        return cambio
+    if(moneda == "DOLAR" || moneda == "dolar"){
+        let cambio = monto / 896;
         
 
     }
-    else if (moneda == "EURO" || "euro"){
-       let cambio = monto * 970;
-        return cambio
+    else if (moneda == "EURO" || moneda == "euro"){
+       let cambio = monto / 970;
+        
 
 
     }
-
+    return cambio
 }
 
 function datosCambio (monto , moneda){
